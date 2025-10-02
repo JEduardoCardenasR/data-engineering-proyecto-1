@@ -1,0 +1,61 @@
+# Carpeta de datos
+data/
+
+# Archivos de base de datos SQLite
+*.db
+*.sqlite
+*.sqlite3
+
+# Archivos temporales de SQLite
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Archivos CSV
+*.csv
+
+# Archivos de configuración de base de datos
+.env
+.env.local
+.env.production
+
+# Logs
+*.log
+logs/
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos de Python (si usas Python en el futuro)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Archivos de Node.js (si usas Node.js en el futuro)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos de Jupyter Notebook
+.ipynb_checkpoints
+
+# Archivos de backup
+*.bak
+*.backup
