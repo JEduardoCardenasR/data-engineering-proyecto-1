@@ -316,7 +316,7 @@ Esto evidencia un **mercado diversificado y competitivo**, donde existen actores
 
 ---
 
-## ARCHIVOS INCLU spannidos
+## ARCHIVOS INCLUÍDOS
 
 1. **codigo.sql**: Script completo con todas las consultas SQL desarrolladas
 2. **Interpretación.docx**: Documento con capturas de pantalla y análisis detallado de resultados
