@@ -1,0 +1,90 @@
+# ===========================================
+# PROYECTO INTEGRADOR - DATA ENGINEERING
+# Archivo de dependencias para el proyecto completo
+# ===========================================
+
+# ===========================================
+# DEPENDENCIAS PRINCIPALES DE ANÁLISIS DE DATOS
+# ===========================================
+
+# Manipulación y análisis de datos
+pandas>=2.0.0,<3.0.0
+numpy>=1.24.0,<2.0.0
+
+# ===========================================
+# DEPENDENCIAS DE VISUALIZACIÓN
+# ===========================================
+
+# Gráficos y visualizaciones
+matplotlib>=3.7.0,<4.0.0
+seaborn>=0.12.0,<1.0.0
+
+# ===========================================
+# DEPENDENCIAS DE MACHINE LEARNING
+# ===========================================
+
+# Preprocesamiento y modelado
+scikit-learn>=1.3.0,<2.0.0
+
+# ===========================================
+# DEPENDENCIAS DE JUPYTER NOTEBOOK
+# ===========================================
+
+# Entorno de desarrollo interactivo
+jupyter>=1.0.0
+ipykernel>=6.0.0
+notebook>=6.5.0
+
+# ===========================================
+# DEPENDENCIAS DE BASE DE DATOS
+# ===========================================
+
+# SQLite (incluido en Python estándar)
+# sqlite3 - No requiere instalación adicional
+
+# ===========================================
+# DEPENDENCIAS OPCIONALES PARA DESARROLLO
+# ===========================================
+
+# Herramientas de desarrollo (opcional)
+# black>=23.0.0  # Formateador de código
+# flake8>=6.0.0  # Linter de código
+# pytest>=7.0.0  # Framework de testing
+
+# ===========================================
+# DEPENDENCIAS DE SISTEMA
+# ===========================================
+
+# Utilidades del sistema
+python-dateutil>=2.8.0
+pytz>=2023.3
+
+# ===========================================
+# NOTAS DE INSTALACIÓN
+# ===========================================
+
+# Para instalar todas las dependencias:
+# pip install -r requirements.txt
+
+# Para instalar solo las dependencias principales:
+# pip install pandas numpy matplotlib seaborn scikit-learn jupyter
+
+# Para desarrollo con herramientas adicionales:
+# pip install -r requirements.txt black flake8 pytest
+
+# ===========================================
+# VERSIONES COMPATIBLES CON PYTHON
+# ===========================================
+
+# Python >= 3.8.0 (recomendado Python 3.9+)
+# Compatible con Windows, macOS y Linux
+
+# ===========================================
+# ARCHIVOS DEL PROYECTO QUE UTILIZAN ESTAS DEPENDENCIAS
+# ===========================================
+
+# Avance 1/codigo.sql - SQL puro (sin dependencias Python)
+# Avance 2/codigo.sql - SQL puro (sin dependencias Python)  
+# Avance 3/resultados.ipynb - Utiliza todas las dependencias principales
+# data/schema.sql - SQL puro (sin dependencias Python)
+# data/*.csv - Archivos de datos (sin dependencias Python)
