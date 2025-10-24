@@ -63,8 +63,19 @@ Este proyecto integrador demuestra un **flujo completo de ingeniería de datos**
 │   └── README.md                   # Análisis de rendimiento y mejoras
 ├── 📁 Avance 3/                    # Feature Engineering y ML
 │   └── resultados.ipynb            # Análisis completo en Python con mejoras
+├── 📁 Avance 4/                    # Patrones de Diseño y Algoritmos
+│   ├── README.md                   # Documentación completa del avance
+│   ├── extra_credit.ipynb          # Análisis de algoritmos y benchmarking
+│   └── 📁 sales_analysis/          # Sistema modular con patrones de diseño
+│       ├── 1.Main.py               # Punto de entrada del sistema
+│       ├── 2.Demos.py              # Demostraciones del sistema
+│       ├── 3.Utils.py              # Utilidades y carga de datos
+│       ├── 4.Analyzer.py           # Analizador de ventas (Context)
+│       ├── 5.Factory.py            # Factory Method para estrategias
+│       └── 6.Strategy.py           # Strategy Pattern con 4 estrategias
 ├── 📁 data/                        # Dataset completo y archivos de datos
 │   ├── sales.csv                   # 6.7M registros de ventas
+│   ├── sales_price.csv             # Dataset con precios calculados
 │   ├── sales_modelado.csv          # Dataset procesado para ML (27 columnas)
 │   ├── products.csv                # Catálogo de productos (452 productos)
 │   ├── customers.csv               # Base de clientes (98K+ clientes)
@@ -109,6 +120,13 @@ Este proyecto integrador demuestra un **flujo completo de ingeniería de datos**
 - ✅ **Dataset optimizado** con 27 columnas para algoritmos ML
 - ✅ **Preparación completa** lista para modelos predictivos
 - ✅ **Documentación técnica** detallada del proceso completo
+
+### **5. Patrones de Diseño y Arquitectura de Software**
+- ✅ **Strategy Pattern** - Encapsulación de algoritmos intercambiables
+- ✅ **Factory Method** - Creación de objetos en tiempo de ejecución
+- ✅ **Análisis de algoritmos** - 3 enfoques con benchmarking (1000 repeticiones)
+- ✅ **Sistema extensible** - Demostración con nueva estrategia agregada
+- ✅ **Código modular** - 6 módulos con separación de responsabilidades
 
 ---
 
@@ -202,36 +220,14 @@ Este proyecto integrador demuestra un **flujo completo de ingeniería de datos**
 - Métricas de calidad y escalabilidad
 - Comunicación de resultados técnicos a stakeholders
 
----
-
-## 🔥 **MEJORAS IMPLEMENTADAS EN AVANCE 3**
-
-### **🚀 Nuevas Funcionalidades Agregadas**
-- **Cálculo de Precios Reales:** Corrección de datos faltantes con fórmula `(Quantity × Price) × (1 - Discount)`
-- **Detección Avanzada de Outliers:** Implementación del método IQR con análisis estadístico completo
-- **Análisis Temporal Granular:** Extracción de patrones por hora, día y semana con visualizaciones
-- **Feature Engineering Completo:** Creación de 19 variables derivadas para ML
-- **Transformaciones ML:** One-Hot, Label y Target Encoding para preparación de datos
-
-### **📊 Análisis Demográfico de Empleados**
-- **AgeAtHire:** Edad promedio de contratación (45.2 años)
-- **ExperienceAtSale:** Experiencia promedio en ventas (4.0 años)
-- **Análisis por Género:** Distribución y estadísticas por demografía
-- **Correlaciones:** Relación entre edad, experiencia y rendimiento
-
-### **🎯 Dataset Final Optimizado**
-- **27 columnas** preparadas para algoritmos de ML
-- **6,758,125 registros** procesados completamente
-- **2.8GB de datos** manipulados eficientemente
-- **Exportación:** `sales_modelado.csv` listo para modelado
-- **Documentación:** Análisis completo con interpretaciones detalladas
-
-### **📈 Métricas de Calidad Mejoradas**
-- **0.71% outliers** detectados con precisión estadística
-- **$4.3B en ventas** calculadas desde datos faltantes
-- **149.2% diferencia** entre días laborales y fines de semana
-- **16:00 hora pico** con $179M en ventas identificada
-- **100% cobertura** de datos procesados sin pérdidas
+### **Patrones de Diseño y Arquitectura de Software**
+- Strategy Pattern con 4 estrategias intercambiables
+- Factory Method con múltiples modos de creación
+- Context Class para coordinación de estrategias
+- Principio Open/Closed demostrado con extensión
+- Sistema modular con 6 componentes separados
+- Benchmarking integrado de rendimiento algorítmico
+- Código extensible sin modificar implementaciones existentes
 
 ---
 

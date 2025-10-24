@@ -1,5 +1,16 @@
 # Carpeta de datos
 data/
+assets/
+
+# Imágenes
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.ico
+*.webp
 
 # Archivos de base de datos SQLite
 *.db
